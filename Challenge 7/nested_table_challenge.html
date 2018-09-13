@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Challenge 7</title>
+</head>
+<body>
+    <h1>Nested tables using table within table</h1>
+    <table border="5" style="text-align: center; font-size: 50px">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>  
+        <tr>
+            <td>3</td>
+            <td>
+                <table border="5" style="border-collapse:collapse">
+                    <tr>
+                        <td>
+                            <table border="5" style="border-collapse:collapse">
+                                <tr>
+                                    <td style="background-color:orangered">4</td>
+                                    <td style="background-color:orangered">5</td>
+                                </tr>
+                                    
+                                <tr>
+                                    <td style="background-color:orangered">7</td>
+                                    <td style="background-color:orangered">8</td>
+                                </tr>
+                            </table>
+                        </td>
+
+                        <td style="background-color:yellow">6</td>
+                    </tr>
+
+                    <tr>
+                        <td style="background-color:yellow">9</td>
+                        <td style="background-color:yellow">10</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>      
+    </table>
+
+    <br>
+    <br>
+    <h2>Nested table using span</h2>
+    <table border="5" style="text-align: center; font-size: 50px">
+        <tr>
+            <td>1</td>
+            <td colspan="3">2</td>
+        </tr>
+        <tr>
+            <td rowspan="3">3</td>
+            <td style="background-color:orangered">4</td>
+            <td style="background-color:orangered">5</td>
+            <td rowspan="2" style="background-color:yellow">6</td>
+        </tr>
+        <tr>
+            <td style="background-color:orangered">7</td>
+            <td style="background-color:orangered">8</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="background-color:yellow">9</td>
+            <td style="background-color:yellow">10</td>
+        </tr>
+    </table>
+</body>
+</html>
