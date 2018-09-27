@@ -1,0 +1,48 @@
+h1 {
+    color: red;
+}
+
+.selectedPara {
+    color: blue;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:active {
+    font-size: 1.2rem;
+}
+
+a:focus {
+    color: green;
+}
+
+a:visited {
+    background-color: yellow;
+}
+
+div label {
+    font-size: 1.4rem;
+}
+
+input::-moz-placeholder{
+    color: purple;
+}
+
+button {
+    margin-top: 3%;
+    margin-left: 7%;
+    background-color: aqua;
+}
+
+.container:empty {
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+}

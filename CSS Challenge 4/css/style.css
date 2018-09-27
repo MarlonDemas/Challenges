@@ -1,0 +1,44 @@
+.hoverChange {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    float: left;
+}
+
+.hoverChange:hover {
+    background-color: yellow; 
+
+}
+
+.clickChange {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    float: left;
+}
+
+.clickChange:active {
+    background-color: aqua; 
+}
+
+.hoverStretch {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    float: left;
+}
+
+.hoverStretch:hover {
+    width: 600px; 
+}
+
+.hoverShrink {
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    float: left;
+}
+
+.hoverShrink:hover {
+    width: 50px; 
+}
