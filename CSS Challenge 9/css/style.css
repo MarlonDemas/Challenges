@@ -16,15 +16,20 @@
   }
 
   .left {
-      left: 175px;
-  }
+      left: 65px;
+    }
 
   .right {
-      left: 65px;
+    left: 175px;
   }
 
   .mouth {
     border-radius: 0 0 170px 170px;
-    border-top: none;
     border: 2px solid rgb(0,0,0);
+    border-top: none;
+    position: absolute;
+    top: 180px;
+    left: 55px;
+    width: 165px;
+    height: 80px;
   }
