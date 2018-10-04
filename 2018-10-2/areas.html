@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="items item1">Content content content</div>
+        <div class="items item2">I am a sidebar 1</div>
+        <div class="items item3">Still content Mfweto</div>
+        <!-- <div class="items item4">I am a second sidebar</div> -->
+        <div class="items item5">I am the footer xse</div>
+    </div>
+
+    <style>
+        .container {
+            display: grid;
+            grid-gap: 20px;
+            grid-template-columns: 1fr 10fr 1fr;
+            grid-template-rows: 150px 150px 150px;
+            grid-template-areas: 
+                "content1 content1 content1"
+                "sidebar1 content2 content2"
+                "sidebar1 footer footer";
+        }
+
+        .item1 {
+            grid-area: content1;
+            background-color:#bada55;
+        }
+        
+        .item2 {
+            grid-area: sidebar1;
+            background-color:#ff0;
+        }
+        
+        .item3 {
+            grid-area: content2;
+            background-color:#f5f;
+        }
+        
+        /* .item4 {
+            grid-area: sidebar2;
+            background-color:#f00;
+        } */
+        
+        .item5 {
+            grid-area: footer;
+            background-color:goldenrod;
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 640px) {
+            .container {
+            display: grid;
+            grid-gap: 20px;
+            grid-template-columns: 1fr ;
+            grid-template-areas: 
+                "content1"
+                "sidebar1"
+                "content2"
+                "footer";
+            }
+            
+        }
+        
+        @media (min-width: 640px) and (max-width: 1024px) {
+            .container {
+            display: grid;
+            grid-gap: 20px;
+            grid-template-columns: 1fr 10fr 1fr;
+            grid-template-rows: 150px 150px 150px;
+            grid-template-areas: 
+                "content1 content1 content1"
+                "sidebar1 content2 content2"
+                "footer footer footer";
+        }
+            
+        }
+    </style>
+</body>
+</html>
