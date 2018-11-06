@@ -1,8 +1,11 @@
+.container {
+    float: left;
+}
+
 .hoverChange {
     width: 200px;
     height: 200px;
     background-color: blue;
-    float: left;
 }
 
 .hoverChange:hover {
@@ -14,7 +17,6 @@
     width: 200px;
     height: 200px;
     background-color: red;
-    float: left;
 }
 
 .clickChange:active {
@@ -25,7 +27,6 @@
     width: 200px;
     height: 200px;
     background-color: green;
-    float: left;
 }
 
 .hoverStretch:hover {
@@ -36,7 +37,6 @@
     width: 200px;
     height: 200px;
     background-color: purple;
-    float: left;
 }
 
 .hoverShrink:hover {
