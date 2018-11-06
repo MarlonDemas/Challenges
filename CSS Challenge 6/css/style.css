@@ -1,12 +1,23 @@
+body {
+    background-color: #0d355a;
+}
+
 h1 {
     color: red;
+    text-align: center;
 }
 
 .selectedPara {
-    color: blue;
+    color: #decade;
 }
 
-a:hover{
+a {
+    color: #0ff;
+    position: absolute;
+    right: 30%;
+}
+
+a:hover {
     text-decoration: none;
 }
 
@@ -22,8 +33,10 @@ a:visited {
     background-color: yellow;
 }
 
-div label {
+div > label {
     font-size: 1.4rem;
+    margin-left: 41%;
+    margin-right: 25px;
 }
 
 input::-moz-placeholder{
@@ -31,18 +44,18 @@ input::-moz-placeholder{
 }
 
 button {
-    margin-top: 3%;
-    margin-left: 7%;
+    margin-top: 20px;
+    margin-left: 49.5%;
     background-color: aqua;
 }
 
 .container:empty {
     display: block;
-    width: 200px;
-    height: 200px;
+    height: 100px;
 }
 
 .footer {
     position: fixed;
-    bottom: 0;
+    top: 40vh;
+    left: 33%;
 }
