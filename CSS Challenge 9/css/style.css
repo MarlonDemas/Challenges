@@ -5,6 +5,7 @@
     height: 300px;
     position: relative;
     width: 300px;
+    margin-bottom: 25px;
   }
   .eye {
     background-color: rgb(0,0,0);
@@ -29,7 +30,35 @@
     border-top: none;
     position: absolute;
     top: 180px;
-    left: 55px;
-    width: 165px;
-    height: 80px;
+    left: 50px;
+    width: 180px;
+    height: 69px;
+  }
+
+  .myFace {
+    width: 250px;
+    height: 250px;
+  }
+
+  .myLeft {
+    left: 44px;
+  }
+
+  .myRight {
+    left: 144px;
+  }
+
+  .myEye {
+    top: 100px;
+    width: 48px;
+    height: 9px;
+  }
+
+  .myMouth {
+    border: 2px solid rgb(0,0,0);
+    top: 184px;
+    left: 53px;
+    width: 126px;
+    height: 0;
+    border-radius: 0;
   }
