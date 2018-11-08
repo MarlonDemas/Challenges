@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+body #container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 0;
+}
+body #container hr {
+  color: grey;
+}
+body #container .nav-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: rgba(0, 0, 0, 0.7);
+  height: auto;
+}
+body #container .nav-wrapper nav {
+  position: fixed;
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 33%;
+}
+body #container .nav-wrapper nav img {
+  border-radius: 50%;
+  width: 150px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  border: 2px white solid;
+}
+body #container .nav-wrapper nav h2 {
+  text-align: center;
+  color: #fff;
+}
+body #container .nav-wrapper nav p {
+  text-align: center;
+  color: #fff;
+}
+body #container .nav-wrapper nav p span {
+  display: block;
+}
+body #container .nav-wrapper nav .navItems {
+  margin-left: 20px;
+}
+body #container .nav-wrapper nav .navItems ul {
+  list-style: none;
+  padding: 0;
+}
+body #container .nav-wrapper nav .navItems ul a {
+  text-decoration: none;
+  color: grey;
+  line-height: 30px;
+}
+body #container .nav-wrapper nav .navItems ul a:hover {
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
