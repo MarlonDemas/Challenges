@@ -11,7 +11,7 @@ body {
         .nav-wrapper {
             display: grid;
             grid-template-columns: 1fr;
-            background: rgba(0, 0, 0, 0.7);
+            background: rgba(0, 0, 0, 0.9);
             height: auto;
             nav {
                 position: fixed;
@@ -27,6 +27,9 @@ body {
                 h2 {
                     text-align: center;
                     color: #fff;
+                }
+                h3 {
+                    color: #c33;
                 }
                 p {
                     text-align: center;
@@ -50,6 +53,18 @@ body {
                         }
                     }
                 }
+            }
+        }
+        .groups {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            // grid-gap: 20px;
+
+            img {
+                display: block;
+                width: 95%;
+                height: auto;
+                padding: 20px;
             }
         }
     }
