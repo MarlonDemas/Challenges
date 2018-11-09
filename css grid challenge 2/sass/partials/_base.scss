@@ -59,12 +59,18 @@ body {
             display: grid;
             grid-template-columns: 1fr 1fr;
             // grid-gap: 20px;
-
             img {
                 display: block;
                 width: 95%;
+                max-height: 710px;
                 height: auto;
                 padding: 20px;
+            }
+            .column {
+                grid-row: span 2;
+            }
+            .row {
+                grid-column: span 2;
             }
         }
     }
