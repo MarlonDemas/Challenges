@@ -1,8 +1,14 @@
-body h1 {
-  text-align: center; }
-body ul {
-  list-style: none; }
-  body ul li a {
-    text-decoration: none; }
+body {
+  background: #c0dec5;
+  height: 100vh; }
+  body h1 {
+    text-align: center; }
+  body ul {
+    list-style: none; }
+    body ul .here {
+      margin-bottom: 80px; }
+    body ul li a {
+      text-decoration: none;
+      margin-bottom: 10px; }
 
 /*# sourceMappingURL=main.css.map */

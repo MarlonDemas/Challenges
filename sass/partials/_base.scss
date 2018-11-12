@@ -1,13 +1,21 @@
 body {
+    background: #c0dec5;
+    height: 100vh;
     h1 {
         text-align: center;
     }
     ul {
         list-style: none;
 
+        .here {
+            margin-bottom: 80px;
+
+        }
+
         li {
             a {
                 text-decoration: none;
+                margin-bottom: 10px;
             }
         }
     }
