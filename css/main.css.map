@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAAA,IAAK;EACD,UAAU,EAAE,OAAO;EACnB,MAAM,EAAE,KAAK;EACb,OAAG;IACC,UAAU,EAAE,MAAM;EAEtB,OAAG;IACC,UAAU,EAAE,IAAI;IAEhB,aAAM;MACF,aAAa,EAAE,IAAI;IAKnB,YAAE;MACE,eAAe,EAAE,IAAI;MACrB,aAAa,EAAE,IAAI",
-"sources": ["../sass/partials/_base.scss"],
-"names": [],
-"file": "main.css"
-}
+{"version":3,"sourceRoot":"","sources":["../sass/partials/_base.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;;AACA;EACI;;AAEJ;EACI;;AACA;EACI;;AAGA;EACI;EACA","file":"main.css"}
